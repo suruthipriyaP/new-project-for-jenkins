@@ -5,10 +5,11 @@
     <classes>
       <class name="Telliant_timesheet.app.LoginTest">
         <methods>
+          <include name="login"/>
           <include name="TeardownTest"/>
           <include name="initialize"/>
           <include name="f"/>
-          <include name="clearExistingAction"/>
+          <include name="viewtimesheet"/>
         </methods>
       </class> <!-- Telliant_timesheet.app.LoginTest -->
     </classes>
